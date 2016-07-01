@@ -5,3 +5,5 @@ To install these formulas, first add this repository as a tap using
 ```bash
 brew tap ararslan/pints
 ```
+
+Until further notice, you should assume that none of the formulas in here are ready for use.
