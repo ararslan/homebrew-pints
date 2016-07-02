@@ -6,6 +6,7 @@ class Howl < Formula
   sha256 "25075b12ba0138afa1cb694c52dd756b35a5350fe3b30132fbcacd137db3adb3"
   head "https://github.com/howl-editor/howl.git"
 
+  depends_on :x11 => :build
   depends_on "gtk+3"
   depends_on "wget" => :build if build.head?
 
