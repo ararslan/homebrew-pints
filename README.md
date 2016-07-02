@@ -8,10 +8,10 @@ brew tap ararslan/pints
 
 The following formulas are ready for use:
 
-* wsedit
-* Howl (it installs but there are OS X specific issues that don't seem to affect functionality)
+* [wsedit](https://github.com/SirBoonami/wsedit), a lightweight, terminal-based editor
+* [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
 
 These are still in development and should not be assumed to work:
 
-* OpenLibm
-* FemtoLisp
+* OpenLibm, a portable C mathematics library
+* FemtoLisp, a Scheme-like Lisp dialect
