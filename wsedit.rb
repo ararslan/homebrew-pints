@@ -10,7 +10,7 @@ class Wsedit < Formula
 
   def install
     system "stack", "setup"
-    system "stack", "install", "--local-bin-path", "#{prefix}"
+    system "stack", "install", "--local-bin-path", "#{prefix}/bin"
     bin.install "wsedit"
   end
 end
