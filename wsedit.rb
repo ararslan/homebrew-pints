@@ -12,6 +12,6 @@ class Wsedit < Formula
     bin.mkpath
     system "stack", "setup"
     system "stack", "install", "--local-bin-path", "#{prefix}/bin"
-    bin.install "wsedit"
+    #bin.install "wsedit"
   end
 end
