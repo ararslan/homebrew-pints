@@ -10,11 +10,7 @@ class Wsedit < Formula
 
   def install
     system "stack", "setup"
-    system "stack", "install"
-    # TODO: wsedit is installed in ~/.local/bin -- should go elsewhere
-  end
-
-  test do
-    # TODO
+    system "stack", "install", "--local-bin-path", "#{prefix}"
+    bin.install "wsedit"
   end
 end
