@@ -9,6 +9,7 @@ class Wsedit < Formula
   depends_on "haskell-stack" => :build
 
   def install
+    bin.mkpath
     system "stack", "setup"
     system "stack", "install", "--local-bin-path", "#{prefix}/bin"
     bin.install "wsedit"
