@@ -8,6 +8,8 @@ brew tap ararslan/pints
 
 The following formulas are ready for use:
 
+* [Rmath-julia](https://github.com/JuliaLang/Rmath-julia), the standalone Rmath library patched
+with the dSFMT RNG
 * [wsedit](https://github.com/SirBoonami/wsedit), a lightweight, terminal-based editor
 * [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
 
