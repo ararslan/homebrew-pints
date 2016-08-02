@@ -8,6 +8,12 @@ class Wsedit < Formula
 
   depends_on "haskell-stack" => :build
 
+  bottle do
+    root_url "https://dl.bintray.com/ararslan/wsedit/"
+    cellar :any_skip_relocation
+    sha256 "2915443e111959ca5d7bd5f9e770293522d9ee129fedeb81bb97bf36c5d7751b" => :yosemite
+  end
+
   def install
     bin.mkpath
     system "stack", "setup"
