@@ -7,8 +7,11 @@ class Openlibm < Formula
   head "https://github.com/JuliaLang/openlibm.git"
 
   def install
-    system "make", "DESTDIR=#{prefix}"
+    bin.mkpath
+    lib.mkpath
+    (lib/"pkgconfig").mkpath
+    include.mkpath
+
     system "make", "install", "DESTDIR=#{prefix}"
-    system "make", "clean"
   end
 end
