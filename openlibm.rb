@@ -11,9 +11,9 @@ class Openlibm < Formula
     (lib/"pkgconfig").mkpath
     include.mkpath
 
-    system "make", "install", "DESTDIR=#{prefix}"
+    system "make", "install", "prefix=."
 
-    lib.install Dir["#{lib}/*"]
-    include.install Dir["#{include}/*"]
+    lib.install Dir["lib/*"]
+    include.install Dir["include/*"]
   end
 end
