@@ -11,13 +11,10 @@ brew tap ararslan/pints
 The following formulas are ready for use:
 
 * `flisp`: [FemtoLisp](https://github.com/JeffBezanson/femtolisp), a Scheme-like Lisp dialect
+* `openlibm`: [OpenLibm](http://www.openlibm.org), a portable C mathematics library
 * `wsedit`: [Wyvernscale Source Code Editor](https://github.com/SirBoonami/wsedit), a lightweight,
   terminal-based editor
 * `howl`: [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
-
-These are still in development and should not be assumed to work:
-
-* OpenLibm, a portable C mathematics library
 
 These are deprecated in favor of formulas from other taps:
 
