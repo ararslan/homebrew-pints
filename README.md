@@ -6,14 +6,26 @@ To install these formulas, first add this repository as a tap using
 brew tap ararslan/pints
 ```
 
+## Formulas
+
 The following formulas are ready for use:
 
-* [Rmath-julia](https://github.com/JuliaLang/Rmath-julia), the standalone Rmath library patched
-with the dSFMT RNG
-* [wsedit](https://github.com/SirBoonami/wsedit), a lightweight, terminal-based editor
-* [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
+* `flisp`: [FemtoLisp](https://github.com/JeffBezanson/femtolisp), a Scheme-like Lisp dialect
+* `wsedit`: [Wyvernscale Source Code Editor](https://github.com/SirBoonami/wsedit), a lightweight,
+  terminal-based editor
+* `howl`: [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
 
 These are still in development and should not be assumed to work:
 
 * OpenLibm, a portable C mathematics library
-* FemtoLisp, a Scheme-like Lisp dialect
+
+These are deprecated in favor of formulas from other taps:
+
+* Rmath-julia, see instead [staticfloat/juliadeps](https://github.com/staticfloat/homebrew-juliadeps)
+
+## Other notes
+
+I trust Jeff Bezanson implicitly and therefore recommend installing FemtoLisp using
+`brew install flisp --HEAD`.
+Otherwise there's no guarantee that the release version here will be up to date, as
+it's from a fork of the original repository.
