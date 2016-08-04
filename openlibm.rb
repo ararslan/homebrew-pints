@@ -9,11 +9,12 @@ class Openlibm < Formula
   def install
     lib.mkpath
     (lib/"pkgconfig").mkpath
-    include.mkpath
+    (include/"openlibm").mkpath
 
     system "make", "install", "prefix=."
 
-    lib.install Dir["lib/*"]
-    include.install Dir["include/*"]
+    lib.install Dir["lib/*"].reject {|f| File.directory? f }
+    (lib/"pkgconfig").install Dir["lib/pkgconfig/*"]
+    (include/"openlibm").install Dir["include/openlibm/*"]
   end
 end
