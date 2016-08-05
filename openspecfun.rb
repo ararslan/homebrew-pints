@@ -9,8 +9,10 @@ class Openspecfun < Formula
   option "with-openlibm", "Compile using OpenLibm instead of the system's libm"
   option "with-gcc", "Compile using GCC instead of Clang"
 
-  depends_on "gfortran" => :build
-  depends_on "gcc" => :build if "with-gcc"
+  # The option with-gcc dictates whether the C compiler is GCC. GCC is needed
+  # anyway because it includes gfortran, which apparently is no longer its own
+  # Homebrew formula.
+  depends_on "gcc" => :build
   depends_on "openlibm" if "with-openlibm"
 
   def install
