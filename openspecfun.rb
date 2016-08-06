@@ -1,9 +1,9 @@
 class Openspecfun < Formula
   desc "Library of Bessel, Airy, and error functions of complex arguments"
   homepage "https://github.com/JuliaLang/openspecfun"
-  url "https://github.com/JuliaLang/openspecfun/archive/v0.5.1.tar.gz"
-  version "0.5.1"
-  sha256 "b83e35feedbd717788866d496189c067a4f9c36b46d93eb7855df7494b1e3d22"
+  url "https://github.com/JuliaLang/openspecfun/archive/v0.5.3.tar.gz"
+  version "0.5.3"
+  sha256 "1505c7a45f9f39ffe18be36f7a985cb427873948281dbcd376a11c2cd15e41e7"
   head "https://github.com/JuliaLang/openspecfun.git"
 
   option "with-openlibm", "Compile using OpenLibm instead of the system's libm"
