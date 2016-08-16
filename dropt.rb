@@ -12,7 +12,9 @@ class Dropt < Formula
   def install
     ext = build.with?("gcc") ? "gcc" : "clang"
     lib.mkpath
-    system "make", "-f", "Makefile.#{ext}", "default", "BUILD_ROOT=."
-    lib.install Dir["lib/*"]
+    cd "dropt" do
+      system "make", "-f", "Makefile.#{ext}", "default"
+    end
+    lib.install Dir["build/lib/*"]
   end
 end
