@@ -15,6 +15,6 @@ class Dropt < Formula
     cd "dropt" do
       system "make", "-f", "Makefile.#{ext}", "default"
     end
-    lib.install Dir["build/lib/*"]
+    lib.install Dir["dropt/build/lib/*"]
   end
 end
