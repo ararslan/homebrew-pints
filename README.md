@@ -10,7 +10,7 @@ brew tap ararslan/pints
 
 The following formulas are ready for use:
 
-* `drop`: [Dropt](https://github.com/jamesderlin/dropt), a C library for parsing command line options
+* `dropt`: [Dropt](https://github.com/jamesderlin/dropt), a C library for parsing command line options
 * `flisp`: [FemtoLisp](https://github.com/JeffBezanson/femtolisp), a Scheme-like Lisp dialect
 * `howl`: [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
 * `openlibm`: [OpenLibm](http://www.openlibm.org), a portable C mathematics library
