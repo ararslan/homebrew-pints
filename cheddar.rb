@@ -1,3 +1,5 @@
+require "language/node"
+
 class Cheddar < Formula
   desc "The Cheddar programming language"
   homepage "http://cheddar.vihan.org"
@@ -11,7 +13,7 @@ class Cheddar < Formula
 
   def install
     bin.mkpath
-    system "npm install"
+    system "npm", "install"
     bin.install "dist/cli/cheddar"
   end
 end
