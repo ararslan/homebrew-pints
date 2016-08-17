@@ -15,5 +15,6 @@ class Cheddar < Formula
     bin.mkpath
     system "npm", "install", *Language::Node.local_npm_install_args
     bin.install_symlink "dist/cli/cheddar"
+    bin.install "cheddar"
   end
 end
