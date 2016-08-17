@@ -7,10 +7,11 @@ class Cheddar < Formula
   head "https://github.com/cheddar-lang/Cheddar.git"
 
   depends_on "node"
+  depends_on "npm"
 
   def install
     bin.mkpath
-    system "npm", "install"
+    system "npm install"
     bin.install "dist/cli/cheddar"
   end
 end
