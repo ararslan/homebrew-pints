@@ -11,10 +11,23 @@ class Dropt < Formula
 
   def install
     ext = build.with?("gcc") ? "gcc" : "clang"
+
     lib.mkpath
-    cd "dropt" do
+    include.mkpath
+
+    # Version 1.1.1 has everything stuffed inside another directory, but this
+    # was fixed on master
+    if build.head?
       system "make", "-f", "Makefile.#{ext}", "default"
+      pref = ""
+    else
+      cd "dropt" do
+        system "make", "-f", "Makefile.#{ext}", "default"
+      end
+      pref = "dropt/"
     end
-    lib.install Dir["dropt/build/lib/*"]
+
+    lib.install Dir["#{pref}build/lib/*"]
+    include.install Dir["#{pref}include/*"]
   end
 end
