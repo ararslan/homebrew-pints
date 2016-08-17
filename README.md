@@ -10,11 +10,15 @@ brew tap ararslan/pints
 
 The following formulas are ready for use:
 
+* `drop`: [Dropt](https://github.com/jamesderlin/dropt), a C library for parsing command line options
 * `flisp`: [FemtoLisp](https://github.com/JeffBezanson/femtolisp), a Scheme-like Lisp dialect
+* `howl`: [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
 * `openlibm`: [OpenLibm](http://www.openlibm.org), a portable C mathematics library
+* `openspecfun`: [OpenSpecFun](https://github.com/JuliaLang/openspecfun), a library for special
+  functions of complex arguments
+* `with`: [With](https://github.com/mchav/with), continuous command prefixing using a single tool
 * `wsedit`: [Wyvernscale Source Code Editor](https://github.com/SirBoonami/wsedit), a lightweight,
   terminal-based editor
-* `howl`: [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
 
 These are deprecated in favor of formulas from other taps:
 
