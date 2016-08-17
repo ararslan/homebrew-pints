@@ -30,3 +30,6 @@ I trust Jeff Bezanson implicitly and therefore recommend installing FemtoLisp us
 `brew install flisp --HEAD`.
 Otherwise there's no guarantee that the release version here will be up to date, as
 it's from a fork of the original repository.
+
+There have not yet been any releases tagged for With, so the formula is currently HEAD-only.
+That means that it *must* be installed using `brew install with --HEAD`.
