@@ -13,8 +13,11 @@ class Cheddar < Formula
 
   def install
     bin.mkpath
+    (bin/"../build").mkpath
     system "npm", "install", *Language::Node.local_npm_install_args
-    system "ln", "-s", "dist/cli/cheddar", bin
+    system "bin/cleanup"
+    system "cp", "*", bin/"../build/"
+    system "ln", "-s", bin/"../build/dist/cli/cheddar", bin
     bin.install
   end
 end
