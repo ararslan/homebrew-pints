@@ -16,7 +16,10 @@ The following formulas are ready for use:
 * `openlibm`: [OpenLibm](http://www.openlibm.org), a portable C mathematics library
 * `openspecfun`: [OpenSpecFun](https://github.com/JuliaLang/openspecfun), a library for special
   functions of complex arguments
+* `sparsepp`: [Sparsepp](https://github.com/greg7mdp/sparsepp), a fast, memory efficient hash map
+  for C++ (HEAD only)
 * `with`: [With](https://github.com/mchav/with), continuous command prefixing using a single tool
+  (HEAD only)
 * `wsedit`: [Wyvernscale Source Code Editor](https://github.com/SirBoonami/wsedit), a lightweight,
   terminal-based editor
 
@@ -31,5 +34,5 @@ I trust Jeff Bezanson implicitly and therefore recommend installing FemtoLisp us
 Otherwise there's no guarantee that the release version here will be up to date, as
 it's from a fork of the original repository.
 
-There have not yet been any releases tagged for With, so the formula is currently HEAD-only.
-That means that it *must* be installed using `brew install with --HEAD`.
+Formulas marked "HEAD only" above have not yet had any tagged releases.
+That means that these *must* be installed using `brew install <formula> --HEAD`.
