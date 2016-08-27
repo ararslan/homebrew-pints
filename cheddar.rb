@@ -15,7 +15,6 @@ class Cheddar < Formula
     bin.mkpath
     (bin/"../build").mkpath
     system "npm", "install", *Language::Node.local_npm_install_args
-    system "bin/cleanup"
     system "cp", "*", bin/"../build/"
     system "ln", "-s", bin/"../build/dist/cli/cheddar", bin
     bin.install
