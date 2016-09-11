@@ -17,6 +17,7 @@ The following formulas are ready for use:
 * `howl`: [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
 * `lni-vector`: [Vector](https://github.com/lnishan/vector), a supercharged `std::vector`
   implementation
+* `owl-lisp`: [Owl](https://github.com/aoh/owl-lisp), a functional Lisp
 * `simit`: [Simit](http://simit-lang.org), a language for computing on sparse systems (HEAD only)
 * `sparsepp`: [Sparsepp](https://github.com/greg7mdp/sparsepp), a fast, memory efficient hash map
   for C++ (HEAD only)
