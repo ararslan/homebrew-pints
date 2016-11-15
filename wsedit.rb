@@ -1,14 +1,14 @@
 class Wsedit < Formula
   desc "A simple terminal source code editor"
   homepage "https://github.com/SirBoonami/wsedit"
-  url "https://github.com/SirBoonami/wsedit/archive/v1.1.0.tar.gz"
-  version "1.1.0"
-  sha256 "e9812a8bf8295a32945403e4f22cad6c1e92a8f85ee221a6b404f279b2ede704"
+  url "https://github.com/SirBoonami/wsedit/archive/v1.2.0.tar.gz"
+  version "1.2.0"
+  sha256 "4a90f4589b11524a2cbd544ba70bd733af704ce90a951bc64c6a638214aa3977"
   head "https://github.com/SirBoonami/wsedit.git"
 
   depends_on "haskell-stack" => :build
 
-  # FIXME: This corresponds to v1.0.0. Need to update for 1.1.0.
+  # FIXME: This corresponds to v1.0.0. Need to update for 1.2.0.
   # bottle do
   #   root_url "https://dl.bintray.com/ararslan/wsedit/"
   #   cellar :any_skip_relocation
