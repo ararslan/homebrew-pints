@@ -1,9 +1,9 @@
 class Wsedit < Formula
   desc "A simple terminal source code editor"
   homepage "https://github.com/SirBoonami/wsedit"
-  url "https://github.com/SirBoonami/wsedit/archive/v1.2.0.tar.gz"
-  version "1.2.0"
-  sha256 "4a90f4589b11524a2cbd544ba70bd733af704ce90a951bc64c6a638214aa3977"
+  url "https://github.com/SirBoonami/wsedit/archive/v1.2.1.tar.gz"
+  version "1.2.1"
+  sha256 "b15a1e469553852e269ba15582616ccb89758d587cff2ddbcd370546a9e7b225"
   head "https://github.com/SirBoonami/wsedit.git"
 
   depends_on "haskell-stack" => :build
