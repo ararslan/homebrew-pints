@@ -17,7 +17,7 @@ class Wsedit < Formula
     unless build.without? "language-files"
       langdir = etc/"wsedit/lang/default"
       langdir.mkpath
-      system "cp", Dir["lang/*.wsconf"], langdir
+      langdir.install Dir["lang/*.wsconf"]
     end
   end
 
