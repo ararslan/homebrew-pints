@@ -22,6 +22,6 @@ class Wsedit < Formula
   end
 
   test do
-    assert_match /^Wyvernscale Source Code Editor/ shell_output("#{bin}/wsed -hv")
+    assert_match(/^Wyvernscale Source Code Editor/, shell_output("#{bin}/wsed -hv"))
   end
 end
