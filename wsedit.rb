@@ -3,7 +3,7 @@ class Wsedit < Formula
   homepage "https://github.com/LadyBoonami/wsedit"
   url "https://github.com/LadyBoonami/wsedit/archive/v1.2.2.tar.gz"
   version "1.2.2"
-  sha256 "561f0af9d0b914df8fb0c814a37339020051ee18df07c2de218b4fa48653a8ef"
+  sha256 "3fc1e291adb01e1e37746cc6d2232f2d389c0e92ff6dfcca134d10385033ee06"
   head "https://github.com/LadyBoonami/wsedit.git"
 
   depends_on "haskell-stack" => :build
