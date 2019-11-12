@@ -2,7 +2,6 @@ class Akku < Formula
   desc "R6RS/R7RS Scheme language package manager"
   homepage "https://akkuscm.org"
   url "https://github.com/weinholt/akku/releases/download/v1.0.0/akku-1.0.0.src.tar.xz"
-  version "1.0.0"
   sha256 "37ac149c19cce1219595d751f9d5b99ccaffe3892ba023148dc48aab89c4bf7d"
   head "https://gitlab.com/akkuscm/akku.git"
 
