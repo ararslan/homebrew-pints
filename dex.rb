@@ -1,6 +1,6 @@
 class Dex < Formula
   desc "Research language for array processing in the Haskell/ML family"
-  head "https://github.com/google-research/dex-lang.git"
+  head "https://github.com/google-research/dex-lang.git", branch: "main"
 
   depends_on "haskell-stack" => :build
   depends_on "llvm@9" => :build
