@@ -7,7 +7,7 @@ class Dex < Formula
   depends_on "libpng"
 
   def install
-    ENV.prepend_path Formula["llvm@9"].opt_bin
+    ENV.prepend_path "PATH", Formula["llvm@9"].opt_bin
     system "make", "install", "PREFIX=#{prefix}"
   end
 end
