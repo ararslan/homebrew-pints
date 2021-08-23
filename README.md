@@ -12,12 +12,9 @@ The following formulas are ready for use:
 
 * `dropt`: [Dropt](https://github.com/jamesderlin/dropt), a C library for parsing command line
   options
-* `flisp`: [FemtoLisp](https://github.com/JeffBezanson/femtolisp), a Scheme-like Lisp dialect
-  (HEAD only)
 * `howl`: [Howl](https://howl.io), a lightweight, GUI-based editor (see formula caveats!)
 * `lni-vector`: [Vector](https://github.com/lnishan/vector), a supercharged `std::vector`
   implementation
-* `owl-lisp`: [Owl](https://github.com/aoh/owl-lisp), a functional Lisp
 * `simit`: [Simit](http://simit-lang.org), a language for computing on sparse systems (HEAD only)
 * `sparsepp`: [Sparsepp](https://github.com/greg7mdp/sparsepp), a fast, memory efficient hash map
   for C++ (HEAD only)
@@ -26,12 +23,22 @@ The following formulas are ready for use:
 * `wsedit`: [Wyvernscale Source Code Editor](https://github.com/SirBoonami/wsedit), a lightweight,
   terminal-based editor
 
+These are WIP and may or may not work:
+
+* `dex`: [Dex](https://github.com/google-research/dex-lang), a research language for array
+  processing in the Haskell/ML family
+
 These are deprecated in favor of formulas from other taps:
 
 * [staticfloat/juliadeps](https://github.com/staticfloat/homebrew-juliadeps)
   * Rmath-julia
   * OpenLibm
   * OpenSpecFun
+* [lassik/scheme](https://github.com/lassik/homebrew-scheme)
+  * Akku
+  * EISL
+  * FemtoLisp
+  * Owl Lisp
 
 ## Other notes
 
